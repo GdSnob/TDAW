@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#tarea {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 80%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+}
+
+
+#agregarTarea {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+#listaTareas {
+    list-style: none;
+    padding: 0;
+    width: 80%;
+    margin: 0 auto;
+}
+
+li {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+
+.boton-eliminar {
+    background-color: #DC3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
